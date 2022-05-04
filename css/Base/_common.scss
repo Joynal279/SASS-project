@@ -11,9 +11,16 @@
     margin: 0 auto;
 }
 
+.fix::after, .fix::before {
+    content: '';
+    clear: both;
+    display: table;
+}
+
 a{
     text-decoration: none;
     color: $black;
+    transition: 0.3s;
 }
 
 img{

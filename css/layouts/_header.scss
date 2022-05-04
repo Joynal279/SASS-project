@@ -1,0 +1,37 @@
+
+.header-area{
+    .main{
+        .header{
+            .logo{
+                float: left;
+                margin-right: 15px;
+                margin-top: 23px;
+                a{
+                    font-weight: bold;
+                    text-transform: uppercase;
+                }
+            }
+            .menu{
+                float: right;
+                ul{
+                    margin: 15px 0px;
+                    li{
+                        padding: 10px 10px;
+                        display: inline-block;
+                        a{
+                            cursor: pointer;
+                            &:hover{
+                                color:tomato;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
