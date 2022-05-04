@@ -63,7 +63,7 @@ ul {
 }
 
 .btn.box-btn {
-  background-color: tomato;
+  background-color: #ff7720;
 }
 
 .btn.box-btn:hover {
@@ -72,7 +72,7 @@ ul {
 
 .btn.border-btn {
   border: 2px solid #ff7720;
-  padding: 8px 4px;
+  padding: 8px 18px;
 }
 
 .btn.border-btn:hover {
