@@ -68,6 +68,7 @@ ul {
 
 .btn.box-btn:hover {
   background-color: black;
+  color: #ff7720;
 }
 
 .btn.border-btn {
@@ -77,6 +78,37 @@ ul {
 
 .btn.border-btn:hover {
   border-color: black;
+  color: #ff7720;
+}
+
+.about-area {
+  text-align: center;
+}
+
+.about-area .main .section-title {
+  text-align: center;
+  margin-bottom: 23px;
+}
+
+.about-area .main .section-title h4 {
+  text-transform: capitalize;
+  font-size: 40px;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 20px;
+  padding-bottom: 28px;
+}
+
+.about-area .main .section-title h4:before {
+  position: absolute;
+  content: '';
+  width: 70px;
+  height: 2px;
+  background-color: tomato;
+  bottom: 0px;
+  left: 50%;
+  -webkit-transform: translateX(-60%);
+          transform: translateX(-60%);
 }
 
 .pt-10 {
@@ -474,5 +506,29 @@ body {
 
 .banner-area .main .banner-content a {
   margin: 0px 10px;
+}
+
+.single-about {
+  border: 1px solid #ddd;
+  padding: 40px 20px;
+  width: 381px;
+  float: right;
+  margin-right: 18px;
+}
+
+.single-about h4 {
+  text-transform: capitalize;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.single-about p {
+  max-width: 500px;
+  margin: 20px 0;
+  font-size: 15px;
+}
+
+.single-about a {
+  color: #333;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,24 @@
+
+.single-about {
+    border: 1px solid #ddd;
+    padding: 40px 20px;
+    width: 381px;
+    float: right;
+    margin-right: 18px;
+    &:last-child{
+        //margin-right: 0px;
+    }
+    h4 {
+        text-transform: capitalize;
+        font-size: 26px;
+        font-weight: 500;
+    }
+    p {
+        max-width: 500px;
+        margin: 20px 0;
+        font-size: 15px;
+    }
+    a {
+        color: #333;
+    }
+}
