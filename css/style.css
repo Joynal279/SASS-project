@@ -141,6 +141,32 @@ ul {
           transform: translateX(-60%);
 }
 
+.portfolio-area .main .section-title {
+  text-align: center;
+  margin-bottom: 43px;
+}
+
+.portfolio-area .main .section-title h4 {
+  text-transform: capitalize;
+  font-size: 40px;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 20px;
+  padding-bottom: 28px;
+}
+
+.portfolio-area .main .section-title h4:before {
+  position: absolute;
+  content: '';
+  width: 70px;
+  height: 2px;
+  background-color: tomato;
+  bottom: 0px;
+  left: 50%;
+  -webkit-transform: translateX(-60%);
+          transform: translateX(-60%);
+}
+
 .pt-10 {
   padding-top: 10px;
 }
@@ -594,5 +620,53 @@ body {
 
 .single-service a {
   color: #333;
+}
+
+.single-portfolio {
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  float: left;
+  margin-right: 30px;
+  width: 369px;
+  margin-bottom: 30px;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.single-portfolio:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.single-portfolio h4 {
+  background-color: #333;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  font-size: 20px;
+  text-transform: capitalize;
+  border-radius: 5px;
+}
+
+.cta-content {
+  color: white;
+}
+
+.cta-content h4 {
+  font-size: 40px;
+  margin: 30px 0px;
+}
+
+.cta-content p {
+  font-size: 15px;
+  padding: 23px 200px;
 }
 /*# sourceMappingURL=style.css.map */
