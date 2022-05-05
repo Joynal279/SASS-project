@@ -575,7 +575,7 @@ body {
 }
 
 .single-service:hover {
-  border: 1px solid tomato;
+  border: 1px solid #ff7720;
   opacity: 0.8;
 }
 

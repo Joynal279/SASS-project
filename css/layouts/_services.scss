@@ -10,7 +10,7 @@
     border-radius: 5px;
     border: 1px solid white;
     &:hover{
-        border: 1px solid tomato;
+        border: 1px solid $primary-color;
         opacity: 0.8;
     }
     h4 {
