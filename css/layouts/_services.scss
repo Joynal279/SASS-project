@@ -1,0 +1,28 @@
+
+.single-service {
+    text-align: center;
+    background-color: white;
+    padding: 30px 20px;
+    width: 380px;
+    float: right;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    &:hover{
+        //border: 1px solid tomato;
+    }
+    h4 {
+        margin-top: 15px;
+        text-transform: capitalize;
+        font-size: 26px;
+        font-weight: 500;
+    }
+    p {
+        max-width: 500px;
+        margin: 20px 0;
+        font-size: 15px;
+    }
+    a {
+        color: #333;
+    }
+}

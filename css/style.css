@@ -111,6 +111,36 @@ ul {
           transform: translateX(-60%);
 }
 
+.services-area {
+  background-color: #f2f2f2;
+}
+
+.services-area .main .section-title {
+  text-align: center;
+  margin-bottom: 43px;
+}
+
+.services-area .main .section-title h4 {
+  text-transform: capitalize;
+  font-size: 40px;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 20px;
+  padding-bottom: 28px;
+}
+
+.services-area .main .section-title h4:before {
+  position: absolute;
+  content: '';
+  width: 70px;
+  height: 2px;
+  background-color: tomato;
+  bottom: 0px;
+  left: 50%;
+  -webkit-transform: translateX(-60%);
+          transform: translateX(-60%);
+}
+
 .pt-10 {
   padding-top: 10px;
 }
@@ -529,6 +559,34 @@ body {
 }
 
 .single-about a {
+  color: #333;
+}
+
+.single-service {
+  text-align: center;
+  background-color: white;
+  padding: 30px 20px;
+  width: 380px;
+  float: right;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.single-service h4 {
+  margin-top: 15px;
+  text-transform: capitalize;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.single-service p {
+  max-width: 500px;
+  margin: 20px 0;
+  font-size: 15px;
+}
+
+.single-service a {
   color: #333;
 }
 /*# sourceMappingURL=style.css.map */
