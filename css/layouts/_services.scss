@@ -8,8 +8,10 @@
     margin-right: 15px;
     margin-bottom: 15px;
     border-radius: 5px;
+    border: 1px solid white;
     &:hover{
-        //border: 1px solid tomato;
+        border: 1px solid tomato;
+        opacity: 0.8;
     }
     h4 {
         margin-top: 15px;
