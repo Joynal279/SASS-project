@@ -170,6 +170,36 @@ ul{
     }
 }
 
+//contact design
+
+.contact-area{
+    .main{
+        .section-title {
+            text-align: center;
+            margin-bottom: 43px;
+             h4 {
+                text-transform: capitalize;
+                font-size: 40px;
+                position: relative;
+                display: inline-block;
+                margin-bottom: 20px;
+                padding-bottom: 28px;
+        
+                &:before {
+                    position: absolute;
+                    content: '';
+                    width: 70px;
+                    height: 2px;
+                    background-color: tomato;
+                    bottom: 0px;
+                    left: 50%;
+                    transform: translateX(-60%);
+                }
+            }
+        }
+    }
+}
+
 // margin & padding
 
 @for $i from 1 through 10 {
