@@ -22,6 +22,8 @@
                             cursor: pointer;
                             &:hover{
                                 color:tomato;
+                                text-decoration: underline;
+                                text-underline-offset: 8px;
                             }
                         }
                     }
