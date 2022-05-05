@@ -669,4 +669,44 @@ body {
   font-size: 15px;
   padding: 23px 200px;
 }
+
+.single-blog {
+  float: left;
+  width: 369px;
+  margin-right: 30px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.single-blog:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.single-blog .blog-img {
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+}
+
+.single-blog .blog-img:last-child {
+  margin-right: 0px;
+}
+
+.single-blog .blog-content {
+  padding: 20px;
+}
+
+.single-blog .blog-content h4 {
+  text-transform: capitalize;
+  font-size: 20px;
+  /* margin: 20px 0px; */
+}
+
+.single-blog .blog-content p {
+  margin: 20px 0px;
+  font-size: 14px;
+}
 /*# sourceMappingURL=style.css.map */
